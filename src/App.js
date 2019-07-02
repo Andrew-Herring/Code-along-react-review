@@ -14,7 +14,7 @@ export default class App extends React.Component {
     this.state = {}
   }
   render() {
-    // iterate over items in the data base and call up your component with the props they need, this allows you to call from a data base to populate your dom
+    // iterate over items in the data base and call up your component with the props they need, this allows you to call from a data base to populate your dom 
     const todoItems = DataBank.map(item => <TodoItem item = {item} key = {item.id}/>)
 
     return(
