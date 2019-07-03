@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 // using state and conditional rendering to display a message
 
 export default class TryLoggin extends React.Component {
@@ -28,7 +26,4 @@ export default class TryLoggin extends React.Component {
     )
   }
   
-
-
-
 }
