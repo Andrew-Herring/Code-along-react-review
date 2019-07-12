@@ -22,7 +22,7 @@ render(){
   return(
     <div>
       <h1>{this.state.count}</h1>
-      <button onClick={this.handleClick}>Change!</button>
+      <button onClick={this.handleClick}>Add!</button>
     </div>
   )
 }
